@@ -21,9 +21,9 @@ The Alumni Portal website includes the following features:
 Our team was formed as part of the summer project given to us by our PTO - Saravanakumar sir and HOD - John sir.
 our team includes:
 
-1. Abhiram P Ashok - Web Designer/Content Creator[@Abhiram-P-Ashok](https://github.com/Abhiram-P-Ashok)
-2. Jude Saju - Web Developer[jude7733](https://github.com/jude7733)
-3. Stalino A J - Project Manager[Stalinosmj](https://github.com/Stalinosmj)
+1. Abhiram P Ashok - Web Designer/Content Creator [@Abhiram-P-Ashok](https://github.com/Abhiram-P-Ashok)
+2. Jude Saju - Web Developer [@jude7733](https://github.com/jude7733)
+3. Stalino A J - Project Manager [@Stalinosmj](https://github.com/Stalinosmj)
 
 ## License
 
