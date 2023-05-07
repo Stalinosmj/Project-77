@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Interactive Form</title>
+</head>
+<body>
+	<h1>Interactive Form</h1>
+	<form method="post" action="data.php">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br>
+
+		<label for="phone">Phone Number:</label>
+		<input type="tel" id="phone" name="phone" required><br>
+
+		<label for="class">Class:</label>
+		<input type="text" id="class" name="class" required><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
+
+<!--    In this form, each field has a unique name attribute that 
+    will be used to identify the data in the PHP script.
+     The form's method attribute is set to "post" and its action
+      attribute is set to "process_form.php", which is the name of the 
+      PHP script that will handle the form data.  -->
