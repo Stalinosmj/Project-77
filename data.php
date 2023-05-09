@@ -1,10 +1,13 @@
 <?php
 // Validate form data
-if (isset($_POST['name']) && isset($_POST['phone']) && isset($_POST['class']) && isset($_POST['email'])) {
+if (isset($_POST['name']) && isset($_POST['year']) && isset($_POST['reg_no']) && isset($_POST['phone']) && isset($_POST['class']) && isset($_POST['email']) && isset($_POST['employed'])) {
 	$name = $_POST['name'];
+	$year = $_POST['year'];
+	$reg_no = $_POST['reg_no'];
 	$phone = $_POST['phone'];
 	$class = $_POST['class'];
 	$email = $_POST['email'];
+	$employed = $_POST['employed'];
 
 	// Connect to database
 	$servername = "localhost";
@@ -19,7 +22,7 @@ if (isset($_POST['name']) && isset($_POST['phone']) && isset($_POST['class']) &&
 	}
 
 	// Insert data into database
-	$sql = "INSERT INTO table_name (name, phone, class, email) VALUES ('$name', '$phone', '$class', '$email')";
+	$sql = "INSERT INTO table_name (name, year, reg_no, phone, class, email ,employed) VALUES ('$name', '$year', '$reg_no', '$phone', '$class', '$email', $employed)";
 
 	if ($conn->query($sql) === TRUE) {
 	  echo "New record created successfully";
