@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Interactive Form</title>
 
 	<style>
 		div {
-		  margin-bottom: 10px;
+			margin-bottom: 10px;
 		}
+
 		label {
-		  display: inline-block;
-		  width: 150px;
-		  text-align: right;
+			display: inline-block;
+			width: 150px;
+			text-align: right;
 		}
-	  </style>
+	</style>
 </head>
+
 <body>
 	<h1>Interactive Form</h1>
 
@@ -23,17 +26,9 @@
 			<input type="text" id="name" name="name" required><br>
 
 			<label for="year">Passout year:</label>
-			<select name="year" id="year">
-			<option value="2015">2015</option>
-			<option value="2016">2016</option>
-			<option value="2017">2017</option>
-			<option value="2018">2018</option>
-			<option value="2019">2019</option>
-			<option value="2020">2020</option>
-			<option value="2021">2021</option>
-			<option value="2022">2022</option>
-			<option value="2023">2023</option>
-			</select><br>
+			<select id="year">
+			</select> <br>
+			<script src="/assets/js/yearCopulate.js"> </script>
 
 			<label for="reg_no">Registration Number:</label>
 			<input type="text" id="reg_no" name="reg_no" required><br>
@@ -46,11 +41,11 @@
 
 			<label for="email">Email:</label>
 			<input type="email" id="email" name="email" required><br>
-			
+
 			<label for="job">Employed?</label>
 			<select name="job" id="job">
-			<option value="yes">Yes</option>
-			<option value="no">No</option>
+				<option value="yes">Yes</option>
+				<option value="no">No</option>
 			</select><br><br>
 
 			<!-- dynamic
@@ -66,6 +61,7 @@
 		</div>
 	</form>
 </body>
+
 </html>
 
 <!--    In this form, each field has a unique name attribute that 
