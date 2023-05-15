@@ -1,50 +1,47 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Alumni Registration form</title>
+    <link rel="stylesheet" href="assets/css/form.css" />
+  </head>
+  <body>
+    <div class="center">
+      <h1>Alumni details</h1>
 
-<head>
-	<title>Alumni Registration form</title>
-	<link rel="stylesheet" href="assets/css/form.css">
-</head>
-<body>
+      <form method="post" action="data.php">
+        <div class="inputbox">
+          <input type="text" id="name" name="name" required="required" />
+          <span>Name</span>
+        </div>
+        <div class="inputbox">
+          <input type="text" id="reg_no" name="reg_no" required />
+          <span>Registration Number</span>
+        </div>
+        <div class="inputbox">
+          <input type="tel" id="phone" name="phone" required />
+          <span>Phone Number</span>
+        </div>
+        <div class="inputbox">
+          <input type="text" id="class" name="class" required />
+          <span>Batch</span>
+        </div>
+        <div class="inputbox">
+          <input type="email" id="email" name="email" required />
+          <span>Email</span>
+        </div>
+        <div class="inputbox">
+          <label for="year">Passout year</label>
+          <select id="year"></select>
+        </div>
+        <div class="inputbox">
+          <label for="job">Employed?</label>
+          <select name="job" id="job">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
 
-<div class="center">
-	<h1>Alumni details</h1>
-
-<form method="post" action="data.php">
-	<div class="inputbox">
-		<input type="text" id="name" name="name" required="required">
-		<span>Name</span>
-	</div>
-	
-	<div class="inputbox">
-	<input type="text" id="reg_no" name="reg_no" required>
-		<span>Registration Number</span>
-</div>
-<div class="inputbox">
-	<input type="tel" id="phone" name="phone" required>
-	<span>Phone Number</span>
-</div>
-	<div class="inputbox">
-	<input type="text" id="class" name="class" required>
-		<span>Batch</span>
-		</div>
-		<div class="inputbox">
-	<input type="email" id="email" name="email" required>
-	<span>Email</span>
-	</div>
-	<div class="inputbox">
-		<label for="year">Passout year</label>
-	<select id="year"></select>
-	</div>
-	<div class="inputbox">
-	<label for="job">Employed?</label>
-	<select name="job" id="job">
-		<option value="yes">Yes</option>
-		<option value="no">No</option>
-	</select>
-	</div>
-
-	<!-- dynamic
+        <!-- dynamic
 				<label for="company">Company:</label>
 				<input type="text" id="company" name="company" required><br>
 				<label for="designation">Designation:</label>
@@ -52,12 +49,12 @@
 				<label for="contribute">Contribute to college?</label>
 				add drop down yes or no 
 			-->
-			<div class="inputbox">
-	<input type="submit" value="Submit">
-	</div>
-</form>
-</div>
-</body>
+        <div class="inputbox">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
 
 <!--    In this form, each field has a unique name attribute that 
@@ -66,4 +63,4 @@
       attribute is set to "process_form.php", which is the name of the 
       PHP script that will handle the form data.  -->
 
-	  <script src="assets/js/yearCopulate.js"> </script>
+<script src="assets/js/yearCopulate.js"></script>
