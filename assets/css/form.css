@@ -6,9 +6,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200vh;
+  height: 150vh;
   background-color: azure;
-  background: linear-gradient(45deg, greenyellow, dodgerblue);
+  background-size:cover;
 }
 .center {
   position: relative;
@@ -75,4 +75,9 @@ body {
   font-family: sans-serif;
   padding-left: 55%;
   padding-top: 5%;
+}
+
+.center div
+{
+	width: 90%;
 }
