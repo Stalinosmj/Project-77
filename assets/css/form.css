@@ -9,6 +9,7 @@ body {
   height: 150vh;
   background-color: azure;
   background-size:cover;
+  margin: 0 10% 0 10%;
 }
 .center {
   position: relative;
@@ -77,7 +78,10 @@ body {
   padding-top: 5%;
 }
 
-.center div
+.center a
 {
-	width: 90%;
+  width: 50%;
+  background: dodgerblue;
+  color: #fff;
+  border: #fff;
 }
