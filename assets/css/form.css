@@ -36,8 +36,7 @@ body {
   height: auto;
   margin-bottom: 35px;
 }
-.center .inputbox input,
-select {
+.center .inputbox input {
   position: relative;
   width: 100%;
   height: auto;
@@ -73,18 +72,32 @@ select {
 .center .inputbox:hover [type="button"] {
   background: linear-gradient(45deg, greenyellow, dodgerblue);
 }
-.center .inputbox label {
-  position: absolute;
-  font-size: inherit;
-  color: #000;
-  font-family: sans-serif;
-  padding-left: 55%;
-  padding-top: 5%;
-}
-
 .center a {
   width: 50%;
   background: dodgerblue;
   color: #fff;
   border: #fff;
+}
+.center .select-warp {
+  border: 2px solid #000;
+  border-radius: 13px;
+  padding: 0 5px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 35px;
+  font-size: 1.2em;
+}
+.select-warp label {
+  position: absolute;
+  justify-items: auto;
+  padding: 10px;
+  font-size: inherit;
+}
+.select-warp select {
+  border: 0px;
+  padding-left: 70%;
+  height: 40px;
+  font-size: inherit;
+  font-weight: bold;
+  background-color: transparent;
 }
