@@ -280,7 +280,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #3d4449;
+  color: black;
   font-family: "Roboto Slab", serif;
   font-weight: 700;
   line-height: 1.5;
@@ -294,7 +294,7 @@ h4 a,
 h5 a,
 h6 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: inherit;
   border-bottom: 0;
 }
 
@@ -1966,8 +1966,8 @@ select {
 }
 
 select option {
-  color: #3d4449;
-  background: #ffffff;
+  color: #FFFFFF;
+  background: #1f1f1f;
 }
 
 select:focus::-ms-value {
@@ -3215,7 +3215,7 @@ button:disabled,
 }
 
 #sidebar > .inner > .alt {
-  background-color: #eff1f2;
+  background-color: #F56A6A;
   border-bottom: 0;
   margin: -2.22222em 0 4.44444em -2.22222em;
   padding: 2.22222em;
@@ -3658,7 +3658,16 @@ button:disabled,
   padding-top: 0;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
+html {
+    transition: color 1500ms, background-color 1500ms;
 }
+
+html[data-theme='dark'] {
+    background: #000;
+    filter: invert(1) hue-rotate(180deg)
+}
+
+html[data-theme='dark'] img {
+  filter: invert(1) hue-rotate(180deg)
+}
+
