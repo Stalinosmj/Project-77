@@ -20,7 +20,7 @@
         </div>
         <div class="inputbox">
           <input type="text" id="reg_no" name="reg_no" required />
-          <span>Registration Number</span>
+          <span>Reg. Number</span>
         </div>
         <div class="inputbox">
           <input type="tel" id="phone" name="phone" required />
@@ -39,7 +39,7 @@
           <select id="year"></select>
         </div>
         <div class="select-warp">
-          <label for="job">Employed?</label>
+          <label for="job">Employed?&nbsp&nbsp&nbsp</label>
           <select name="job" id="job">
             <option value="no">No</option>
             <option value="Yes">Yes</option>
@@ -57,7 +57,8 @@
         <div class="inputbox">
           <input type="button" value="Submit" />
         </div>
-        <nav class="inputbox">
+        <hr>
+        <nav class="footer">
           <a href="index.html">Home</a>
         </nav>
       </form>
@@ -65,10 +66,10 @@
   </body>
 </html>
 
+<script src="assets/js/yearCopulate.js"></script>
+
 <!--    In this form, each field has a unique name attribute that 
     will be used to identify the data in the PHP script.
      The form's method attribute is set to "post" and its action
-      attribute is set to "process_form.php", which is the name of the 
+      attribute is set to "data.php", which is the name of the 
       PHP script that will handle the form data.  -->
-
-<script src="assets/js/yearCopulate.js"></script>

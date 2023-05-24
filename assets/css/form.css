@@ -17,7 +17,7 @@ body {
 }
 .center {
   position: relative;
-  padding: 50px 50px;
+  padding: 40px 40px;
   background: #fff;
   border-radius: 13px;
 }
@@ -33,71 +33,94 @@ body {
 .center .inputbox {
   position: relative;
   width: 100%;
-  height: auto;
   margin-bottom: 35px;
+  height: 40px;
 }
 .center .inputbox input {
-  position: relative;
   width: 100%;
-  height: auto;
   border: 2px solid #000;
   outline: none;
   background: none;
   padding: 10px;
   border-radius: 13px;
-  font-size: 1.2em;
-}
-.center .inputbox:last-child {
-  margin-bottom: 0;
+  font-size: 16px;
 }
 .center .inputbox span {
   position: absolute;
   top: 14px;
-  left: 20px;
-  font-size: inherit;
+  left: 15px;
+  font-size: 16px;
   transition: 0.5s;
   font-family: sans-serif;
 }
 .center .inputbox input:focus ~ span,
 .center .inputbox input:valid ~ span {
   transform: translateX(-13px) translateY(-35px);
-  font-size: 1em;
+  font-size: 16px;
 }
 .center .inputbox [type="button"] {
   width: 50%;
   background: dodgerblue;
   color: #fff;
   border: #fff;
+  margin-left: 50%;
+  font-weight: bold;
 }
 .center .inputbox:hover [type="button"] {
   background: linear-gradient(45deg, greenyellow, dodgerblue);
 }
-.center a {
-  width: 50%;
-  background: dodgerblue;
-  color: #fff;
-  border: #fff;
-}
 .center .select-warp {
   border: 2px solid #000;
   border-radius: 13px;
-  padding: 0 5px;
   width: 100%;
-  position: relative;
   margin-bottom: 35px;
-  font-size: 1.2em;
+  font-size: 16px;
+  font-family: sans-serif;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex-basis: auto;
+  justify-content: space-between;
 }
 .select-warp label {
-  position: absolute;
-  justify-items: auto;
-  padding: 10px;
   font-size: inherit;
+  flex-grow: 1;
+  margin-left: 15px;
 }
 .select-warp select {
   border: 0px;
-  padding-left: 70%;
-  height: 40px;
   font-size: inherit;
   font-weight: bold;
+  border-left: #000 solid 2px;
   background-color: transparent;
+  flex-grow: 3;
+  text-align: end;
+  margin-right: 5px;
+}
+.inputbox :last-child {
+  margin-bottom: 0;
+}
+hr {
+  border: 0;
+  height: 2px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer a {
+  background: blueviolet;
+  color: #fff;
+  border: #fff;
+  text-decoration: none;
+  border-radius: 13px;
+  padding: 10px;
+  font-weight: bold;
+}
+.footer a:hover {
+  background: linear-gradient(45deg, lightgreen, dodgerblue);
 }
