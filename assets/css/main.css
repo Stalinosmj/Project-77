@@ -3671,4 +3671,16 @@ html[data-theme='dark'] {
 html[data-theme='dark'] img {
   filter: invert(1) hue-rotate(180deg)
 }
-
+.theme {
+  display: flex;
+  flex-basis: auto;
+  justify-content: space-around;
+}
+.theme button {
+  width: 45%;
+  font-weight: bolder;
+  font-size: 1em;
+}
+.theme button:hover {
+  transform: scale(1.1);
+}
