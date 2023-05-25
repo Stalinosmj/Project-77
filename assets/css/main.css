@@ -3388,7 +3388,7 @@ button:disabled,
   display: flex;
   border-bottom: solid 5px #f56a6a;
   padding: 6em 0 1em 0;
-  position: relative;
+  position: relative ;
 }
 
 #header > * {
@@ -3671,4 +3671,15 @@ html[data-theme='dark'] {
 html[data-theme='dark'] img {
   filter: invert(1) hue-rotate(180deg)
 }
-
+#light{
+    float:right;
+    display:block;
+    margin-right:0px;
+    clear:left;
+}
+#dark{
+    float:right;
+    display:block;
+    margin-right:0px;
+    clear:left;
+}
