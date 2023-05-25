@@ -53,17 +53,18 @@ body {
   transition: 0.5s;
   font-family: sans-serif;
 }
+.center .inputbox input:hover ~ span,
 .center .inputbox input:focus ~ span,
 .center .inputbox input:valid ~ span {
   transform: translateX(-13px) translateY(-35px);
   font-size: 16px;
 }
 .center .inputbox [type="button"] {
-  width: 50%;
+  width: 40%;
   background: dodgerblue;
   color: #fff;
   border: #fff;
-  margin-left: 50%;
+  margin-left: 60%;
   font-weight: bold;
 }
 .center .inputbox:hover [type="button"] {
@@ -96,6 +97,7 @@ body {
   flex-grow: 3;
   text-align: end;
   margin-right: 5px;
+  height: 80%;
 }
 .inputbox :last-child {
   margin-bottom: 0;
