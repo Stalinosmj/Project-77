@@ -69,6 +69,11 @@ body {
 }
 .center .inputbox:hover [type="button"] {
   background: linear-gradient(45deg, greenyellow, dodgerblue);
+  transform: scale(1.1);
+}
+.center .inputbox [type="button"]:focus {
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+  transform: scale(1.1);
 }
 .center .select-warp {
   border: 2px solid #000;
@@ -125,4 +130,9 @@ hr {
 }
 .footer a:hover {
   background: linear-gradient(45deg, lightgreen, dodgerblue);
+  transform: scale(1.1);
+}
+.footer a:focus {
+  background: linear-gradient(45deg, lightgreen, dodgerblue);
+  transform: scale(1.1);
 }

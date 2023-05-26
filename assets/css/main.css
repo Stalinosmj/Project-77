@@ -3673,7 +3673,6 @@ html[data-theme='dark'] img {
 }
 .theme {
   display: flex;
-  flex-basis: auto;
   justify-content: space-around;
 }
 .theme button {
