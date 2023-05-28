@@ -99,10 +99,18 @@ body {
   font-weight: bold;
   border-left: #000 solid 2px;
   background-color: transparent;
-  flex-grow: 3;
+  flex-grow: 1;
   text-align: end;
   margin-right: 5px;
-  height: 80%;
+  height: 100%;
+  width: 60%;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  display: inline-block;
+  white-space: pre-line;
+}
+.select-warp select:focus {
+  outline: none;
 }
 .inputbox :last-child {
   margin-bottom: 0;
