@@ -1,34 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Cairo+Play:wght@300&display=swap");
-
 @import url("https://use.typekit.net/rhi0iac.css");
-
-
 
 * {
   box-sizing: border-box;
 }
-
-
-
-
-
-
 body {
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 160vh;
-  background-color: azure;
   background-size: cover;
   margin: 0 10% 0 10%;
 }
 .center {
   position: relative;
   padding: 40px 40px;
-  background-image: url("../../images/formbg.png");
+  background-image: url("/images/formbg.png");
   border-radius: 13px;
 }
 .center h1 {
@@ -39,7 +27,7 @@ body {
   letter-spacing: 5px;
   margin-bottom: 50px;
   font-weight: bold;
-  font-family: 'Cairo Play', sans-serif;
+  font-family: "Cairo Play", sans-serif;
 }
 .center .inputbox {
   position: relative;
@@ -88,13 +76,12 @@ body {
   background: linear-gradient(45deg, greenyellow, dodgerblue);
   transform: scale(1.1);
 }
-.center .select-warp {
+.select-warp {
   border: 2px solid #000;
   border-radius: 13px;
   width: 100%;
   margin-bottom: 35px;
   font-size: 16px;
-  font-family: sans-serif;
   height: 40px;
   display: flex;
   align-items: center;
@@ -103,9 +90,12 @@ body {
 }
 .select-warp label {
   font-size: inherit;
+  font-family: sans-serif;
   flex-grow: 1;
   margin-left: 15px;
-  
+  font-weight: 400;
+  font-style: normal;
+  font-family: "nunito-sans", sans-serif;
 }
 .select-warp select {
   border: 0px;
@@ -113,17 +103,15 @@ body {
   border-left: #000 solid 2px;
   background-color: transparent;
   flex-grow: 1;
-  text-align: match-parent;
-  margin-right: 5px;
+  text-align: center;
   height: 100%;
   width: 60%;
   overflow: hidden;
   overflow-wrap: break-word;
-  display: inline-block;
   white-space: pre-line;
   font-family: "nunito-sans", sans-serif;
-  font-weight:lighter;
-  font-style:normal;
+  font-weight: lighter;
+  font-style: normal;
 }
 .select-warp select:focus {
   outline: none;
