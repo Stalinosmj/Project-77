@@ -16,7 +16,6 @@
 
 
 body {
-  margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -111,7 +110,6 @@ body {
 .select-warp select {
   border: 0px;
   font-size: inherit;
-  font-weight: bold;
   border-left: #000 solid 2px;
   background-color: transparent;
   flex-grow: 1;
@@ -124,7 +122,7 @@ body {
   display: inline-block;
   white-space: pre-line;
   font-family: "nunito-sans", sans-serif;
-  font-weight: 400;
+  font-weight:lighter;
   font-style:normal;
 }
 .select-warp select:focus {
