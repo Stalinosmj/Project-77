@@ -3690,8 +3690,6 @@ html[data-theme='dark'] img {
 :root {
   --light: #d8dbe0;
   --dark: #28292c;
-  --link: rgb(27, 129, 112);
-  --link-hover: rgb(24, 94, 82);
 }
 
 .toggle-switch {
@@ -3716,9 +3714,9 @@ html[data-theme='dark'] img {
 
 .toggle-switch .slider {
   position: absolute;
-  width: 50%;
-  height: 50%;
-  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
   transition: 0.3s;
 }
 
@@ -3740,7 +3738,7 @@ html[data-theme='dark'] img {
 }
 
 .toggle-switch input:checked ~ .slider::before {
-  transform: translateX(47.5px);
+  transform: translateX(48px);
   background-color: var(--dark);
   box-shadow: none;
 }
