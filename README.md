@@ -18,7 +18,7 @@ The Alumni Portal website includes the following features:
 
 ## Our team
 
-Our team was formed as part of the summer project given to us by our PTO - Saravanakumar sir and HOD - John sir.
+Our team was formed as part of the summer project given to us.
 our team includes:
 
 1. Abhiram P Ashok - Web Designer/Content Creator [@Abhiram-P-Ashok](https://github.com/Abhiram-P-Ashok)
