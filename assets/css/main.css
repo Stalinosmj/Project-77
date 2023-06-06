@@ -168,6 +168,10 @@ body {
   body {
     min-width: 320px;
   }
+  #header .BMC {
+    width: 40%;
+    height: auto;
+  }
 }
 
 html {
@@ -237,6 +241,10 @@ textarea {
   select,
   textarea {
     font-size: 9pt;
+  }
+  #header .BMC {
+    width: 30%;
+    height: auto;
   }
 }
 
@@ -3399,11 +3407,9 @@ button:disabled,
   margin-bottom: 0;
 }
 
-#header .logo {
-  border-bottom: 0;
-  color: inherit;
-  font-family: "Roboto Slab", serif;
-  font-size: 1.125em;
+#header img {
+  max-width: 100%;
+  height: auto;
 }
 
 #header .icons {
@@ -3421,17 +3427,16 @@ button:disabled,
     padding-top: 6.5em;
   }
 
-  #header .logo {
-    font-size: 1.25em;
-    margin: 0;
-  }
-
   #header .icons {
     height: 5em;
     line-height: 5em;
     position: absolute;
     right: -0.5em;
     top: 0;
+  }
+  #header .BMC{
+    width: 60%;
+    height: auto;
   }
 }
 
