@@ -16,7 +16,7 @@ body {
 .center {
   position: relative;
   padding: 40px 40px;
-  background-image: url("/images/formbg.png");
+  background-image: url("../../images/formbg.png");
   border-radius: 13px;
 }
 .center h1 {
@@ -48,7 +48,7 @@ body {
   position: absolute;
   top: 14px;
   left: 15px;
-  font-size: 16px;
+  font-size: 15px;
   transition: 0.5s;
   font-family: "nunito-sans", sans-serif;
   font-weight: 400;
@@ -68,7 +68,7 @@ body {
   margin-left: 60%;
   font-weight: bold;
 }
-.center .inputbox:hover [type="button"] {
+.center .inputbox [type="button"]:hover {
   background: linear-gradient(45deg, greenyellow, dodgerblue);
   transform: scale(1.1);
 }
@@ -81,7 +81,7 @@ body {
   border-radius: 13px;
   width: 100%;
   margin-bottom: 35px;
-  font-size: 16px;
+  font-size: 15px;
   height: 40px;
   display: flex;
   align-items: center;
