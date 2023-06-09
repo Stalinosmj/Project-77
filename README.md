@@ -1,5 +1,3 @@
-Based on Editorial by HTML5
-
 # Project 77
 
 This is the official repository for the Alumni Portal of BMC, which is a platform for alumni to connect with each other and stay up-to-date on news and events related to their alma mater. The website includes a registration page, information about upcoming events, and a way to donate and contribute to the alumni association.
