@@ -168,13 +168,6 @@ body {
   body {
     min-width: 320px;
   }
-  #header .BMC {
-    width: 40%;
-    height: auto;
-  }
-  .register span {
-    font-size: 10px;
-  }
 }
 
 html {
@@ -244,13 +237,6 @@ textarea {
   select,
   textarea {
     font-size: 9pt;
-  }
-  #header .BMC {
-    width: 30%;
-    height: auto;
-  }
-  .register span {
-    font-size: 8px;
   }
 }
 
@@ -3440,10 +3426,6 @@ button:disabled,
     right: -0.5em;
     top: 0;
   }
-  #header .BMC {
-    width: 60%;
-    height: auto;
-  }
 }
 
 /* Banner */
@@ -3698,12 +3680,11 @@ html[data-theme="dark"] img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
-  margin: 0 auto;
+  margin: 0 0% 0 auto;
   width: 100%;
-  max-width: 500px;
+  max-width: 100px;
   height: auto;
-  padding: 10px;
+  padding-top: 10px;
 }
 .registration .register {
   display: block;
@@ -3721,15 +3702,16 @@ html[data-theme="dark"] img {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.registration button {
+  font-size: inherit;
+}
+
 .register span {
-  font-size: 12px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   cursor: pointer;
   display: inline-block;
+  color: #ffffff;
   position: relative;
   transition: 0.5s;
-  color: #ffffff;
 }
 
 .register span:after {
@@ -3756,4 +3738,47 @@ html[data-theme="dark"] img {
 .register:focus span:after {
   opacity: 1;
   right: 0;
+}
+
+@media screen and (max-width: 1680px) {
+  .registration {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .registration {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .registration {
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width: 736px) {
+  #header .BMC {
+    width: 60%;
+    height: auto;
+  }
+  .registration {
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #header .BMC {
+    width: 60%;
+    height: auto;
+  }
+  .registration {
+    font-size: 7px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  #header .BMC {
+    width: 60%;
+    height: auto;
+  }
+  .registration {
+    font-size: 6px;
+  }
 }
