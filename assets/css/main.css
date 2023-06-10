@@ -3698,12 +3698,13 @@ html[data-theme="dark"] img {
   transition: all 0.5s;
   cursor: pointer;
   margin: 10px;
-  padding: 0 10px;
+  padding: 0 12px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .registration button {
   font-size: inherit;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .register span {
@@ -3752,7 +3753,7 @@ html[data-theme="dark"] img {
 }
 @media only screen and (max-width: 980px) {
   .registration {
-    font-size: 9px;
+    font-size: 10px;
   }
 }
 @media only screen and (max-width: 736px) {
@@ -3761,24 +3762,27 @@ html[data-theme="dark"] img {
     height: auto;
   }
   .registration {
-    font-size: 8px;
+    font-size: 9px;
   }
 }
 @media only screen and (max-width: 480px) {
   #header .BMC {
-    width: 60%;
+    width: 70%;
     height: auto;
   }
   .registration {
-    font-size: 7px;
+    font-size: 8px;
+  }
+  .register {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   }
 }
 @media only screen and (max-width: 360px) {
   #header .BMC {
-    width: 60%;
+    width: 70%;
     height: auto;
   }
   .registration {
-    font-size: 6px;
+    font-size: 7px;
   }
 }
