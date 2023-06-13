@@ -2161,6 +2161,11 @@ input[type="radio"] + label:before {
   border-radius: 0.375em;
   display: block;
 }
+.person {
+  max-width: 50%;
+  max-height: 70%;
+  padding-left: 5%;
+}
 
 .image.left,
 .image.right {
@@ -3216,7 +3221,7 @@ button:disabled,
 }
 
 #sidebar > .inner > .alt {
-  background-color: #7f888f ;
+  background-color: #7f888f;
   border-bottom: 0;
   margin: -2.22222em 0 4.44444em -2.22222em;
   padding: 2.22222em;
@@ -3786,7 +3791,7 @@ html[data-theme="dark"] img {
     font-size: 7px;
   }
 }
-#more
-{
-	display:none;
+
+#more {
+  display: none;
 }
