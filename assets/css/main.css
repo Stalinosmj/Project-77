@@ -2156,15 +2156,9 @@ input[type="radio"] + label:before {
   display: inline-block;
   position: relative;
 }
-
 .image img {
   border-radius: 0.375em;
   display: block;
-}
-.person {
-  max-width: 50%;
-  max-height: 70%;
-  padding-left: 5%;
 }
 
 .image.left,
@@ -3794,4 +3788,16 @@ html[data-theme="dark"] img {
 
 #more {
   display: none;
+}
+
+.people {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: max-content;
+  padding: 1%;
+}
+.person {
+  max-width: 60%;
+  max-height: 70%;
 }
