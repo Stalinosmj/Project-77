@@ -4,7 +4,7 @@ This is the official repository for the Alumni Portal of BMC, which is a platfor
 
 ## Getting Started
 
-The initial interactive website will be shortly done, our team is actively working on it, once the website is done the link will be available here -simply visit the URL [bosa.com](https://www.bosa.com). 
+The initial interactive website, our team is actively working on it,The website is done the link is available here -simply visit the URL [bosa.com](https://stalinosmj.github.io/Project-77/). 
 
 ## Features
 
