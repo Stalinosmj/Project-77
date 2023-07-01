@@ -1,15 +1,13 @@
-document.getElementById("job").onchange = getWorkDetails;
-function getWorkDetails() {
-    var isWork = this.value
+function getWorkDetails(isWork) {
     var workDetails = document.querySelectorAll(".hideWork");
-    if (isWork == "Yes") {
-        for (const workDetail of workDetails) {
-            workDetail.setAttribute("class", "inputbox");
+    if (isWork.value == "Yes") {
+        for (let i = 0; i < workDetails.length; i++) {
+            workDetails[i].style.display = "block";
         }
     }
-    else if(isWork == "No") {
-            for (const workDetail of workDetails) {
-                workDetail.setAttribute("class", "hideWork");
-            }
-    }
+    else {
+        for (let i = 0; i < workDetails.length; i++) {
+            workDetails[i].style.display = "none";
+        }
+    }     
 }
