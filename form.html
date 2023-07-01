@@ -84,17 +84,17 @@
         </div>
         <div class="select-warp">
           <label for="job">Employed?&nbsp&nbsp&nbsp</label>
-          <select name="job" id="job">
+          <select name="job" id="job" onchange="getWorkDetails(this)">
             <option value="No">No</option>
             <option value="Yes">Yes</option>
           </select>
         </div>
         
-        <div class="hideWork">
+        <div class="hideWork inputbox">
           <input type="text" id="company" name="company" required>
           <span>Company Name</span>
         </div>
-        <div class="hideWork">
+        <div class="hideWork inputbox">
           <input type="text" id="designation" name="designation" required>
           <span>Designation</span>
         </div>
