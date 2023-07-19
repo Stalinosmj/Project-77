@@ -1,0 +1,25 @@
+
+.features article{
+    display: flex;
+    min-height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: azure;
+}
+.animate-hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100px);
+    transition: all 1s;
+}
+.animate-show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+@media(prefers-reduced-motion: reduce) {
+    .animate-hidden {
+        transition: none;
+    }
+}
